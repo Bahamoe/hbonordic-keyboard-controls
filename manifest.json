@@ -1,0 +1,11 @@
+{
+    "name": "HBO Nordic video controls",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [{
+        "js": ["inject.js"],
+        "matches": [
+            "https://*.hbonordic.com/*/play"
+        ]
+    }]
+}
